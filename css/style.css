@@ -1,0 +1,54 @@
+
+body {
+  background: #f8f8f8;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #25CCF7;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 90%;
+  color: white;
+  outline: 0;
+  border: none;
+}
+
+
+#container {
+  position: relative;
+  top: 30px;
+  outline:2px solid black;
+  background: #fff;
+  font-size: 0;
+  margin:auto;
+  padding: 0;
+  border: none;
+}
+
+.grid {
+  margin:0;
+  padding:0;
+  border:none;
+  outline:1px solid #f8f8f8;
+  display: inline-block;
+  background-image: url('../img/marble.jpg');
+}
+
+.hoover {
+  background-image: url('../img/hoover.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dirt {
+  background-image: url('../img/stain.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
